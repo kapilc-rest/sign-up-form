@@ -37,7 +37,7 @@
                         </div>
                         <div>
                             <label for="phone-num">PHONE NUMBER</label>
-                            <input type="number" placeholder="1234567890" id="phone-num" name="phone-num" max="10" min="10">
+                            <input type="tel" placeholder="1234567890" id="phone-num" name="phone-num" pattern="[0-9]{10}" >
                         </div>
                         <div>
                             <label for="password">PASSWORD</label>
@@ -51,7 +51,7 @@
                 </form>
             </div>
             <div id="account-submit">
-                <button type="submit" for="sign-up-form">Create Account</button>
+                <button type="submit" form="sign-up-form">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
