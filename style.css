@@ -1,6 +1,8 @@
 body {
     height:100vh;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
@@ -11,9 +13,24 @@ body {
 }
 
 #page-hero {
+    display:flex;
+    flex-direction: column;
     background-image: url("jungle.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
-    min-width: 30vh;
+    min-width: 35%;
+}
+
+#header {
+    margin-top: 40%;
+    background-color: rgba(0,0,0,.3);
+    font-size: 16px;
+    color: white;
+    height: 10%;
+    text-align: center;
+}
+
+#footer {
+    margin-top: auto;
 }
