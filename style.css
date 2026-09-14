@@ -1,0 +1,19 @@
+body {
+    height:100vh;
+    background-color: black;
+}
+
+#container {
+    display:flex;
+    height: 100vh;
+    background-color: white;
+    margin: 0 15vw 0 15vw;
+}
+
+#page-hero {
+    background-image: url("jungle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 30vh;
+}
