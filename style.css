@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 43vh;
+    min-height: 45vh;
     min-width: 37%;
 }
 
@@ -33,7 +33,7 @@ body {
     text-align: center;
     padding: 0.5rem;
     box-sizing: border-box;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 #footer, #header {
@@ -61,6 +61,7 @@ body {
 
 #form-side {
     display: flex;
+    position: relative;
     flex-direction: column;
     background-color: white;
     max-width: 65%;
@@ -70,7 +71,7 @@ body {
 #hero-texts {
     width: 100%;
     font-weight: 600;
-    line-height: 1.2rem;
+    line-height: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -86,7 +87,7 @@ body {
         font-size: 1.20rem;
     }
     min-height: 0;
-    max-height: 30vh;
+    max-height: 33vh;
     box-shadow: 0 4px 6px -2px rgba(0,0,0,.5);
 }
 
@@ -115,6 +116,7 @@ form {
 
 #account-submit {
     padding: 1.5rem 2rem;
+
     a {
         text-decoration: none;
         color: #596d48;
@@ -135,5 +137,14 @@ button {
 }
 
 input {
-    border: 1px solid #e5e7eb;
+    border: 1px solid #011233;
+    border-radius: 3px;
+    &:focus {
+        outline-color: blue;
+        box-shadow: 0 0 0 10px rgb(0, 0, rgba(0, 54, 105, 0.829, 0.6));
+    }
+}
+
+#password:user-invalid {
+    outline-color: red;
 }

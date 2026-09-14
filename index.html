@@ -46,11 +46,11 @@
                         </div>
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" pattern="(?=.*[A-Za-z])(?=.*\d).{8,}" title="At least 8 characters, including a letter and a number" minlength="8" required>
                         </div>
                         <div>
                             <label for="re-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="re-password" name="re-password">
+                            <input type="password" id="re-password" name="re-password" pattern="(?=.*[A-Za-z])(?=.*\d).{8,}" title="At least 8 characters, including a letter and a number" minlength="8" required>
                         </div>
                 </form>
             </div>
