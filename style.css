@@ -155,3 +155,12 @@ input {
 #password:user-invalid, #re-password:user-invalid {
     outline: 1px solid red;
 }
+
+@media (max-width: 900px) {
+    #page-hero {
+        min-width: 45%;
+    }
+    #form-side {
+        max-width: 55%;
+    }
+}
