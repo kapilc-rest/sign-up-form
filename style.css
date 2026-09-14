@@ -152,6 +152,6 @@ input {
     }
 }
 
-#password:user-invalid {
-    outline-color: red;
+#password:user-invalid, #re-password:user-invalid {
+    outline: 1px solid red;
 }
