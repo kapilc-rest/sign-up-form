@@ -9,7 +9,7 @@ body {
     display:flex;
     height: 100vh;
     background-color: white;
-    margin: 0 15vw 0 15vw;
+    margin: 0 17vw 0 17vw;
 }
 
 #page-hero {
@@ -19,22 +19,31 @@ body {
     background-image: url("jungle.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 40vh;
     min-width: 35%;
 }
 
 #header {
     position: absolute;
-    top: 25%;
-    background-color: rgba(0,0,0,.3);
-    height: 10%;
+    top: 20%;
+    background-color: rgba(0,0,0,.5);
+    height: 15%;
     min-width: 100%;
     text-align: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
 }
 
 #footer, #header {
     display: flex;
     color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
