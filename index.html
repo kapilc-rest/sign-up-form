@@ -8,6 +8,54 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="container">
+        <div id="page-hero">
+            <div id="header"></div>
+            <div id="footer"></div>
+        </div>
+        <div id="form-side">
+            <div id="form-hero">
+                <p>This is not a real online service! You known you need something like this in your life to help you realize your deepest dreams.</p> 
+                <p>Sign up <em>now</em>to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div id="form">
+                <form id="sign-up-form">
+                    <fieldset>
+                        <legend>Let's do this</legend>
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" placeholder="Thor" id="first-name" name="first-name"> 
+                        </div>
+                        <div>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" placeholder="Odinson" id="last-name" name="last-name">
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" placeholder="Thor" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input type="number" placeholder="1234567890" id="phone-num" name="phone-num" max="10" min="10">
+                        </div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="re-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="re-password" name="re-password">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="account-submit">
+                <button type="submit" for="sign-up-form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
