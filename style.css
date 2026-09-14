@@ -26,13 +26,14 @@ body {
 
 #header {
     position: absolute;
-    top: 20%;
+    top: 22%;
     background-color: rgba(0,0,0,.5);
     height: 15%;
     min-width: 100%;
     text-align: center;
     padding: 0.5rem;
     box-sizing: border-box;
+    font-size: 2rem;
 }
 
 #footer, #header {
@@ -56,4 +57,63 @@ body {
     a {
     color: inherit;
     }
+}
+
+#form-side {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    max-width: 65%;
+    height: 100vh;
+}
+
+#form-hero, #form, #account-submit {
+    padding: 2rem;
+}
+
+#hero-texts {
+    width: 90%;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    padding: 0 2rem;
+    & > div {
+        justify-self: center;
+    }
+}
+
+
+form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 1em;
+    div {
+        max-width: 40%;
+        label {
+            font-size: .75rem;
+            letter-spacing: 0.05rem;
+        }
+    }
+}
+
+#form-hero {
+    max-height: 45%;
+    padding: 0 2rem;
+    margin: 4.5rem 0 2rem 0;
+}
+
+#form{
+    min-height: 25%;
+}
+
+#form-submit {
+    min-height: 35%;
 }
