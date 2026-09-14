@@ -62,7 +62,7 @@ body {
 #form-side {
     display: flex;
     flex-direction: column;
-    background-color: gainsboro;
+    background-color: white;
     max-width: 65%;
     height: 100vh;
 }
@@ -80,11 +80,19 @@ body {
 #form {
     display: flex;
     flex-direction: column;
-    background-color: wheat;
-    padding: 0 2rem;
+    background-color: ghostwhite;
+    padding: 0 1.75rem 1.75rem 1.75rem;
+    box-sizing: border-box;
     & > div {
-        justify-self: center;
+        padding: .70rem 0;
+        font-weight: bold;
+        font-size: 1.20rem;
     }
+    min-height: 0;
+    max-height: 33vh;
+    overflow: auto;
+    flex: 1;
+    box-shadow: 0 4px 6px -2px rgba(0,0,0,.5);
 }
 
 
@@ -94,7 +102,7 @@ form {
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.5rem;
     div {
         max-width: 40%;
         label {
@@ -108,10 +116,6 @@ form {
     max-height: 45%;
     padding: 0 2rem;
     margin: 4.5rem 0 2rem 0;
-}
-
-#form{
-    min-height: 25%;
 }
 
 #form-submit {
