@@ -14,7 +14,7 @@ body {
     display:flex;
     height: 100vh;
     background-color: white;
-    margin: 0 17vw 0 17vw;
+    margin: 0 clamp(0px, 5vw 17vw);
 }
 
 #page-hero {
